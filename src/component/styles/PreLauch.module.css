@@ -64,10 +64,15 @@ body {
 
 /* media queries for mobile screens  */
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 630px) {
   .pre_launch_container {
     flex-direction: column-reverse;
     height: 100%;
+    background-image: url(../mobilebg.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
   }
   .pre_launch_img {
     display: none;
@@ -90,8 +95,16 @@ body {
 
 /* media queries for tab-screens  */
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 630px) and (max-width: 1200px) {
   .pre_launch_img {
     display: none;
+  }
+  .pre_launch_container {
+    flex-direction: column-reverse;
+    height: 100%;
+    background-image: url(../desktopbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

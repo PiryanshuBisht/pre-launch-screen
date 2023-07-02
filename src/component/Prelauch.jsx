@@ -54,5 +54,3 @@ export const Prelauch = () => {
     </div>
   );
 };
-
-
