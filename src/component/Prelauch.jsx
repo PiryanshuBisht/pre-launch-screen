@@ -6,27 +6,28 @@ import wallet from "./wallet.png";
 import share from "./share.png";
 import movie from "./movie.png";
 import ticket from "./ticket.png";
+import user from "./creator_mask.png";
 export const Prelauch = () => {
   return (
     <div className={styles.pre_launch_container}>
       <div className={styles.pre_launch_details}>
         <div className={styles.pre_launch_text}>
           <h1>We are</h1>
-          <h1>Launching Soon.</h1>
+          <h1>Coming Soon.</h1>
         </div>
         <div className={styles.pre_launch_points}>
           <div>
             <img src={wallet} alt="" height={"25px"} />
             <p>
-              Sign up early and get a 100 rupee credit! Be one of our early bird
-              members.
+              As an exclusive early bird member, you've just unlocked a
+              thrilling Rs 100 credit!
             </p>
           </div>
           <div>
             <img src={share} alt="" height={"25px"} />
             <p>
-              Share the excitement, unlock rewards! Invite loved ones, enjoy
-              benefits.
+              Share the excitement, unlock rewards! Invite loved ones and enjoy
+              benefits!
             </p>
           </div>
           <div>
@@ -37,9 +38,10 @@ export const Prelauch = () => {
             </p>
           </div>
           <div>
-            <img src={icon1} alt="" height={"25px"} />
+            <img src={user} alt="" height={"25px"} />
             <p>
-              Escape subscription hassle. Stream hassle-free, commitment-free.
+              Empower and support your favorite artists, making a significant
+              impact on their creative journey.
             </p>
           </div>
           <div>
